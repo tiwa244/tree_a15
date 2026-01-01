@@ -1,0 +1,8 @@
+// vendor/samsung/a15/Android.bp
+//
+// Minimal Soong Android.bp to import all proprietary blobs at once
+
+soong_namespace {
+    imports: ["vendor/samsung/a15"],
+}
+
